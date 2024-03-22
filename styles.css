@@ -44,10 +44,25 @@ body {
   }
 }
 
+.cover {
+  min-height: 740px;
+  background: pink;
+}
+.container_type_cover {
+  padding: 0 48px;
+}
+
+@media (max-width: 1024px) {
+  .container_type_cover {
+    padding: 0;
+  }
+}
+
 @media (max-width: 1023px) {
   .container_type_regular {
     padding: 0 24px;
   }
+  
 }
 
 @media (max-width: 767px) {
