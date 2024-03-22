@@ -33,20 +33,29 @@ body {
   padding: 0 48px;
 }
 
-.container_type_cover {
+.container_type_intro {
+  max-width: 984px;
   padding: 0 48px;
+}
+
+@media (max-width: 768px) {
+  .container_type_intro {
+    padding: 0;
+  }
 }
 
 .cover {
   min-height: 740px;
   background: pink;
 }
+.container_type_cover {
+  padding: 0 48px;
+}
 
 @media (max-width: 1024px) {
   .container_type_cover {
     padding: 0;
   }
-  
 }
 
 @media (max-width: 1023px) {
