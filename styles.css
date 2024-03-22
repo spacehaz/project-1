@@ -33,6 +33,17 @@ body {
   padding: 0 48px;
 }
 
+.container_type_intro {
+  max-width: 984px;
+  padding: 0 48px;
+}
+
+@media (max-width: 768px) {
+  .container_type_intro {
+    padding: 0;
+  }
+}
+
 @media (max-width: 1023px) {
   .container_type_regular {
     padding: 0 24px;
